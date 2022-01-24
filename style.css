@@ -1,0 +1,76 @@
+/* COMMON */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b91350;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1{
+    color: #fff;
+    margin: 20px 0px;
+}
+
+a{
+    color: #ff00;
+}
+
+/* GENERATORE BIGLIETTO */
+.info_container{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.info_container .info_row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info_container .info_row .info_col{
+    display: flex;
+    flex-direction: column;
+}
+
+.info_col label{
+    color: #b91350;
+    margin-bottom: 20px;
+}
+
+.info_col input,
+.info_col select{
+    height: 30px;
+    text-align: center;
+    border: solid 2px #b91350;
+    border-radius: 5px;
+}
+
+.info_container .info_row.centra{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btn{
+    margin: 0px 10px;
+    background-color: lightgray;
+    color: #b91350;
+    font-weight: bold;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: gray;
+    color: #fff;
+}
+

@@ -10,7 +10,54 @@
 </head>
 <body>
     
+    <!-- TITOLO -->
+    <header>
+        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+    </header>
 
+    <!-- GENERATORE PREZZO BIGLIETTO -->
+    <main>
+        <section id="biglietto_info">
+            <div class="info_container">
+
+                <!-- DATI DA INSERIRE DALL'UTENTE -->
+                <div class="info_row">
+
+                    <!-- NOME E COGNOME -->
+                    <div class="info_col">
+                        <label for="name">Nome Cognome</label>
+                        <input type="text" id="name" placeholder="Inserisci Nome e Cognome">
+                    </div>
+                    <!-- FINE NOME E COGNOME -->
+
+                    <!-- KM -->
+                    <div class="info_col">
+                        <label for="">Km da percorrere</label>
+                        <input type="number" id="km" min="1">
+                    </div>
+                    <!-- FINE KM -->
+
+                    <!-- FASCIA D'ETA' -->
+                    <div class="info_col">
+                        <label for="">Fascia d'età</label>
+                        <select name="" id="age">
+                            <option value="under18">Minorenne</option>
+                            <option value="over18">Maggiorenne</option>
+                            <option value="over65">Over 65</option>
+                        </select>
+                    </div>
+                    <!-- FINE FASCIA D'ETA' -->
+                </div>
+                <!-- FINE DATI DA INSERIRE DALL'UTENTE -->
+
+                <!-- PULSANTI DI INPUT -->
+                <div class="info_row centra">
+                    <a id="enter" class="btn">Genera</a>
+                    <a id="reset" class="btn">Annulla</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
 
