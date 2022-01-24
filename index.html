@@ -15,8 +15,10 @@
         <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
     </header>
 
-    <!-- GENERATORE PREZZO BIGLIETTO -->
+    
     <main>
+
+        <!-- GENERATORE PREZZO BIGLIETTO -->
         <section id="biglietto_info">
             <div class="info_container">
 
@@ -26,14 +28,14 @@
                     <!-- NOME E COGNOME -->
                     <div class="info_col">
                         <label for="name">Nome Cognome</label>
-                        <input type="text" id="name" placeholder="Inserisci Nome e Cognome">
+                        <input type="text" id="name" placeholder="Inserisci Nominativo">
                     </div>
                     <!-- FINE NOME E COGNOME -->
 
                     <!-- KM -->
                     <div class="info_col">
                         <label for="">Km da percorrere</label>
-                        <input type="number" id="km" min="1">
+                        <input type="number" id="km" min="1" placeholder="Inserisci Km">
                     </div>
                     <!-- FINE KM -->
 
@@ -41,6 +43,7 @@
                     <div class="info_col">
                         <label for="">Fascia d'età</label>
                         <select name="" id="age">
+                            <option value="">Fascia d'età</option>
                             <option value="under18">Minorenne</option>
                             <option value="over18">Maggiorenne</option>
                             <option value="over65">Over 65</option>
@@ -57,6 +60,53 @@
                 </div>
             </div>
         </section>
+        <!-- FINE GENERATORE PREZZO BIGLIETTO -->
+
+
+        <!-- DETTAGLI BIGLIETTO GENERATO -->
+        <section id="biglietto_detail">
+            <h1>IL TUO BIGLIETTO</h1>
+
+            <!-- CONTAINER BIGLIETTO -->
+            <div id="detail_container_passanger" class="hidden">
+                <h3 class="title">DETTAGLIO PASSEGGERI</h3>
+
+                <!-- PASSEGGERO -->
+                <div class="detail_container">
+
+                     <!-- NOMINATIVO -->
+                    <div class="detail_name">
+                        <h4>NOME PASSEGGERO</h4>
+                        <p id="passenger_name"></p>
+                    </div>
+                    <!-- FINE NOMINATIVO -->
+
+                    <!-- INFO BIGLIETTO -->
+                    <div class="detail_info">
+                        <table>
+                            <tr>
+                                <th>Offerta</th>
+                                <th>Carrozza</th>
+                                <th>Codice CP</th>
+                                <th>Costo biglietto</th>
+                            </tr>
+                            <tr>
+                                <td id="discount_name"></td>
+                                <td id="carriage"></td>
+                                <td id="discount_code"></td>
+                                <td id="final_price"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- FINE INFO BIGLIETTO -->
+
+                </div>
+                <!-- FINE PASSEGGERO -->
+            </div>
+            <!-- FINE CONTAINER BIGLIETTO -->
+            
+        </section>
+        <!-- FINE DETTAGLI BIGLIETTO GENERATO -->
     </main>
 
 
