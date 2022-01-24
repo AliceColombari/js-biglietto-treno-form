@@ -98,7 +98,13 @@ a{
     height: 100px;
     padding: 10px;
 }
-  
+
+#passenger_name{
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+}
+
 .detail_container .detail_info {
     height: 100px;
     padding: 10px;
@@ -119,3 +125,12 @@ a{
     font-weight: bold;
 }
 
+
+/* SHOW - HIDDEN */
+.hidden{
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+}
