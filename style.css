@@ -74,6 +74,7 @@ a{
     border: 1px solid orange;
 }
 
+
 /* DETTAGLI BIGLIETTO */
 #detail_container_passanger {
     width: 80%;
@@ -117,7 +118,4 @@ a{
 .detail_container .detail_info table tr #final_price {
     font-weight: bold;
 }
-
-
-
 
