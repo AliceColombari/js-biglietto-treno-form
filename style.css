@@ -72,6 +72,8 @@ a{
 
 .btn:hover{
     border: 1px solid orange;
+    background-color: grey;
+    color: #fff;
 }
 
 
